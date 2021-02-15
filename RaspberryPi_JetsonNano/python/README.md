@@ -2,9 +2,6 @@
 
 Running LifeHash on GxEPD2 1.54 V2 with Raspberry pi 3.
 
-
-* Make sure you have the necessary [toolchain on your Rpi](https://solarianprogrammer.com/2017/12/08/raspberry-pi-raspbian-install-gcc-compile-cpp-17-programs/)
-
 * Connect your Rpi3 with your display:
   * [schematic RPI](https://docs.microsoft.com/en-us/windows/iot-core/media/pinmappingsrpi/rp2_pinout.png)
   * [schamatic Waveshare](https://www.waveshare.com/wiki/1.54inch_e-Paper_Module)
@@ -19,7 +16,8 @@ Running LifeHash on GxEPD2 1.54 V2 with Raspberry pi 3.
 ```python
 python a.py
 ```
-This example will draw rgb data obtained from https://github.com/BlockchainCommons/bc-lifehash:
+This example will draw rgb data obtained from https://github.com/BlockchainCommons/bc-lifehash which you can run on Rpi
+if you have the necessary [toolchain](https://solarianprogrammer.com/2017/12/08/raspberry-pi-raspbian-install-gcc-compile-cpp-17-programs/)
 
 ```cpp
 auto image = LifeHash::make_from_utf8("some random string", Version::version2, 1);
