@@ -32,8 +32,10 @@ auto image = LifeHash::make_from_utf8("some random string", Version::version2, 1
 
 ----
 
+LifeHash modules were generated with the following script:
+
 ```python
-LifeHash modules were generated with the following script
+
 
 import numpy as np
 from PIL import Image
