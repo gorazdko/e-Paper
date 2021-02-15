@@ -20,3 +20,5 @@ Running LifeHash on GxEPD2 1.54 V2 with Raspberry pi 3.
 python a.py
 ```
 
+
+![IMG_20210215_151210](https://user-images.githubusercontent.com/25270775/107982982-53cb3980-6fc5-11eb-8f95-b6cec4c4d185.jpg)
