@@ -26,8 +26,9 @@ auto image = LifeHash::make_from_utf8("some random string", Version::version2, 1
 ```
 
 
-
 ![IMG_20210215_151210](https://user-images.githubusercontent.com/25270775/107982982-53cb3980-6fc5-11eb-8f95-b6cec4c4d185.jpg)
+
+![IMG_20210215_150607](https://user-images.githubusercontent.com/25270775/107984478-4c595f80-6fc8-11eb-81e3-0a21ae0c86ec.jpg)
 
 
 ----
@@ -59,3 +60,4 @@ for i in range(0, 36):
     im.save('shades_dithered/' + str(i) + '.bmp')
     
     ```
+
