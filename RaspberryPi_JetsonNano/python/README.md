@@ -57,5 +57,5 @@ for i in range(0, 36):
     im = Image.fromarray(na.reshape(6,6))
     im.save('shades_dithered/' + str(i) + '.bmp')
     
-    ```
+```
 
