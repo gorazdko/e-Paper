@@ -44,7 +44,7 @@ JETSON: JETSON_DEV JETSON_epd
 TARGET = epd
 CC = gcc
 MSG = -g -O -ffunction-sections -fdata-sections -Wall
-CFLAGS += $(MSG)
+CFLAGS += $(MSG) -std=c99
 
 RPI_epd:${OBJ_O}
 	echo $(@)

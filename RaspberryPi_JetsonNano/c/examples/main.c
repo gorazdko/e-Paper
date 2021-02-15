@@ -31,7 +31,7 @@ int main(void)
     // EPD_1in02d_test();
 
     // EPD_1in54_test();
-	// EPD_1in54_V2_test();
+	 EPD_1in54_V2_test();
     // EPD_1in54b_test();
 	// EPD_1in54b_V2_test();
     // EPD_1in54c_test();
