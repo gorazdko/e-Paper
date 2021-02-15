@@ -19,7 +19,11 @@ Running LifeHash on GxEPD2 1.54 V2 with Raspberry pi 3.
 ```python
 python a.py
 ```
+This example will draw rgb data obtained from https://github.com/BlockchainCommons/bc-lifehash:
 
+```cpp
+auto image = LifeHash::make_from_utf8("some random string", Version::version2, 1);
+```
 
 
 
