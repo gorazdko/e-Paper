@@ -16,7 +16,7 @@ Running LifeHash on GxEPD2 1.54 V2 with Raspberry pi 3.
 ```python
 python a.py
 ```
-This example will draw rgb data obtained from https://github.com/BlockchainCommons/bc-lifehash which you can run on Rpi
+This example will draw rgb data obtained from https://github.com/BlockchainCommons/bc-lifehash which you can build and run on Rpi
 if you have the necessary [toolchain](https://solarianprogrammer.com/2017/12/08/raspberry-pi-raspbian-install-gcc-compile-cpp-17-programs/)
 
 ```cpp
